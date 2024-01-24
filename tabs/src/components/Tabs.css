@@ -1,0 +1,21 @@
+#tabs button {
+  border: 1px solid grey;
+  color: black;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  margin-right: 5px;
+
+}
+
+#tabs button:hover,
+#tabs button.active {
+  background-color: black;
+  color: white;
+}
+
+#tab-content {
+  border: 1px solid grey;
+  padding: 0.9rem;
+  position: absolute;
+  left: 350px;
+}

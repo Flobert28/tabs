@@ -1,0 +1,13 @@
+import { useState } from 'react'
+import './App.css'
+import Tabs from './components/Tabs'
+
+function App() {
+  return (
+    <>
+    <Tabs></Tabs>
+    </>
+  )
+}
+
+export default App
